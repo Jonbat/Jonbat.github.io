@@ -3,15 +3,37 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+.parallax {
+  min-height: 600px;
+  background: transparent;
+}
+.skills {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 5px;
+  text-align: left;
+}
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
 p {
-  font-size: 20px;
+  font-size: 24px;
 }
 p.small {
   font-size: 16px;
+}
+p.accent {
+  font-size: 24px;
+  color: rgb(150, 150, 150);
+}
+p.green {
+  color: #18BC9C;
+  font-weight: 500;
+}
+li {
+  font-size: 24px;
 }
 a,
 a:hover,
@@ -87,7 +109,7 @@ header .intro-text .name {
   font-weight: 700;
   font-size: 2em;
 }
-header .intro-text .skills {
+header .intro-text .title {
   font-size: 1.25em;
   font-weight: 300;
 }
@@ -99,7 +121,7 @@ header .intro-text .skills {
   header .intro-text .name {
     font-size: 4.75em;
   }
-  header .intro-text .skills {
+  header .intro-text .title {
     font-size: 1.75em;
   }
 }
@@ -180,6 +202,10 @@ header .intro-text .skills {
 }
 section {
   padding: 100px 0;
+}
+section.small {
+  padding-top: 75px;
+  padding-bottom: 10px;
 }
 section h2 {
   margin: 0;

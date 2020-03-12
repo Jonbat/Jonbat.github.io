@@ -9,25 +9,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Yourname Theme</title>
+    <title>Jonathan Batchelder</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <!-- <link href="css/freelancer.min.css" rel="stylesheet"> -->
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
 
 </head>
 
@@ -41,7 +38,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Yourname</a>
+                <a class="navbar-brand" href="#page-top">Jonathan Batchelder</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,7 +48,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#portfolio">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#experience">Experience</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#about">About</a>
@@ -68,11 +68,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <!-- <img class="img-responsive" src="img/profile.png" alt=""> -->
                     <div class="intro-text">
-                        <span class="name">Hey there! I am Yourname!</span>
+                        <span class="name">Hey there! I am Jonathan!</span>
                         <hr class="star-light">
-                        <span class="skills">Add your skills here. Eg: <br/> Web Developer - Graphic Artist</span>
+                        <span class="title"> Computer Science student 
+                            <br/> Mobile App Developer and Embedded Systems Enthusiast <br/> 
+                        </span>
                     </div>
                 </div>
             </div>
@@ -80,81 +82,208 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section class="small" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Projects</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="#yeetPost" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                        <img src="img/yeetPostThumb.jpg"" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="#imageDisplayer" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                        <img src="img/imageDisplayer.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="#bibleApp" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                        <img src="img/bibleAppThumb.png" class="img-responsive" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="#muscleDisplay" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                        <img src="img/muscleDisplay.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <section class="small" id="education" > <!-- make green: class="success"-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Education</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3>Southern Adventist University</h3>
+                    <h4>Candidate for Bachelor's / Master's degree in computer science</h4>
+                    <p>Chattanooga, Tennessee</p>
+                    <p class="accent">2017 - 2021</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <div class="parallax" data-parallax="scroll" 
+        data-image-src="img/southernCampus.jpg"
+        >
+    </div>
+
+    <section class="small" id="experience" > <!-- make green: class="success"-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Experience</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <br>
+                    <img class="img-responsive img-centered" src="img/circLogo.png" alt="">
+                    <br>
+                </div>
+                <div class="col-sm-9">
+                    <h3>Software Developer</h3>
+                    <h4>Center for Innovation and Research in Computing - Southern Adventist University</h4>
+                    <p class="accent">Jan 2018 - Present</p>
+                    <p>Chattanooga, Tennessee</p>
+                    <p>What I have done for my clients at ShareHim so far:</p>
+                    <ul>
+                        <li>Created registration system using Laravel's PHP MVC framework</li>
+                        <li>Managed server-side registration data using MySQL Database</li>
+                        <li>Designed registration page using Google’s Materialize front-end framework</li>
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-3">
+                    <br>
+                    <img class="img-responsive img-centered" src="img/southernLogo.png" alt="">
+                    <br>
+                </div>
+                <div class="col-sm-9">
+                    <h3>Student Mentor</h3>
+                    <h4>Center for Innovation and Research in Computing - Southern Adventist University</h4>
+                    <p class="accent">Aug 2018 - Present</p>
+                    <p>Chattanooga, Tennessee</p>
+                    <p>Roles completed for my 14 computer science mentees:</p>
+                    <ul>
+                        <li>Provided academic support for tutoring, degree scheduling, time management, etc.</li>
+                        <li>Worked as a teaching assistant for the Southern‘s freshman orientation class</li>
+                        <li>Facilitated social connections among my mentees by throwing ice-breakers and get-togethers</li>
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-3">
+                    <br>
+                    <img class="img-responsive img-centered" src="img/appesteem.jpg" alt="">
+                    <br>
+                </div>
+                <div class="col-sm-9">
+                    <h3>Software Engineer Intern</h3>
+                    <h4>AppEsteem Corporation</h4>
+                    <p class="accent">Jun 2019 - Aug 2019</p>
+                    <p>Bellevue, Washington</p>
+                    <p>My roles as part of the Blur chrome extension development team:</p>
+                    <ul>
+                        <li>Implemented subscription-based payment system through Chargebee</li>
+                        <li>Developed client interface with react.js and semantic ui front-end framework</li>
+                        <li>Integrated client to database with Firebase</li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+
+    <section id="skills" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Skills</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <h3>Proficient in:</h3>
+                    <span class="skills">
+                        C++ <br/>
+                        Flutter <br/>
+                        Firebase <br/>
+                        MySQL <br/>
+                        Git <br/>
+                        PHP <br/>
+                        Bootstrap<br/>
+                        HTML/CSS/JS<br/>
+                    </span>
+                </div>
+                <div class="col-sm-4 col-sm-offset-2">
+                    <h3>Comfortable with:</h3>
+                    <span class="skills">
+                        Node.js <br/>
+                        Laravel <br/>
+                        Yii 2.0 <br/>
+                        Python <br/>
+                        Java <br/>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!--
+    <section id="videos">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Instructional Videos</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">   
+            </div>
+        </div>
+    </section>
+    -->
+
     <section class="success" id="about">
+        <br>
+        <br>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -162,21 +291,20 @@
                     <hr class="star-light">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Write a paragraph about who you are, where you're from, etc.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Write a short paragraph about your hobbies and interests.</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <!-- <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a> -->
-                </div>
+            <div class="col-sm-3">
+                <br>
+                    <img class="img-responsive img-centered" src="img/profilePic.jpg" alt="">
+                <br>
+            </div>
+            <div class="col-sm-9">
+                <br>
+                <p> &emsp; Hello! My name is Jonathan Batchelder and I am a 3rd-year computer science student at Southern 
+                    Adventist University. Recently, I have been having fun creating mobile apps with Flutter!</p>
             </div>
         </div>
-    </section>
+        <br>
+        <br>
+    </section> 
 
     <!-- Contact Section -->
 
@@ -187,32 +315,36 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
+                        <p>Chattanooga, Tennessee</p>
+                        <!--
                         <p>Your hostel address line 1
-                            <br>Your hostel address line 2</p>
+                        <br>Your hostel address line 2</p>
+                        -->
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://www.youtube.com/channel/UCN32CcfbPbzFyzcWChxMCpw" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="https://github.com/Jonbat" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/jonathanbatchelder/" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                <a href="https://steamcommunity.com/id/jonbat/" class="btn-social btn-outline"><i class="fa fa-fw fa-steam"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="https://www.instagram.com/j_batch2017/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
                             </li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Yourname</h3>
-                        <p><a href="http://startbootstrap.com">Yourname</a>.</p>
+                        <h3>Contact me</h3>
+                        <p>Email: jonbat@live.com</p>
+                        <p>Phone: 240-329-1778</p>
                     </div>
                 </div>
             </div>
@@ -221,7 +353,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
+                        Copyright &copy; Jonathan Batchelder 2020
                     </div>
                 </div>
             </div>
@@ -236,7 +368,7 @@
     </div>
 
     <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="yeetPost" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -248,22 +380,22 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>YeetPost</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/yeetPostThumb.jpg" class="img-responsive img-centered" alt="">
+                            <p>
+                                YeetPost is a mobile cross-platform, messaging application, developed with Flutter. Users create 
+                                location-based posts, called yeets, with the option to be anonymous. Unlike most social media and 
+                                messaging applications, Yeetpost will contain a cyberbullying detection algorithm that will remove 
+                                offensive yeets and replies using machine learning.
+                            </p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                <li>Code:
+                                    <strong><a href="https://github.com/Jonbat/YeetPost-Mobile">Github</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                    <strong>Jan 2019 - Present</strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -273,7 +405,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="imageDisplayer" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -285,22 +417,25 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Real-time LED Image Display</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/imageDisplayer.jpg" class="img-responsive img-centered" alt="">
+                            <p>This embedded systems project allows a user to take images from a phone and display it in 
+                                real-time on a 32x32 LED display! An IR remote can be configured to scroll through 10 different 
+                                display files. Also, an ambient light sensor can be used to control the display using surrounding 
+                                light. Built with the Raspberry Pi.
+                            </p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                <li>Code:
+                                    <strong><a href="https://github.com/Jonbat/Real-time-Image-LED-Display">Github</a>
+                                    </strong>
+                                </li>
+                                <li>Info:
+                                    <strong><a href="https://youtu.be/txqw9IOIMH0">Instructional Video</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                    <strong>Nov 2019</strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -310,7 +445,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="muscleDisplay" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -322,22 +457,24 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Muscle Sensor LED Display</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/muscleDisplay.jpg" class="img-responsive img-centered" alt="">
+                            <p>This embedded systems project detects muscle contractions and displays it on a 32x32 LED 
+                                screen. The harder you contract your muscle, the larger the wave. Any large enough muscle 
+                                is compatible, such as the biceps, forearms, or even forehead muscles!
+                            </p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                <li>Code:
+                                    <strong><a href="https://github.com/Jonbat/Muscle-Sensor-LED-Display">Github</a>
+                                    </strong>
+                                </li>
+                                <li>Info:
+                                    <strong><a href="https://youtu.be/R8VW5WCSrXk">Instructional Video</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                    <strong>Nov 2018 - Feb 2019</strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -347,7 +484,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="bibleApp" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -361,94 +498,27 @@
                         <div class="modal-body">
                             <h2>Project Title</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
+                            <img src="img/bibleAppThumb.png" class="img-responsive img-centered" alt="">
+                            <p>
+                                A cross-platform, mobile Bible application! It can be built on iOS or Android using Flutter. This app contains two views: 
+                                Verse Selection: Select the desired Bible verse using on-screen dropdowns. In addition, there is an option to select between 7 Bible versions.
+                                Verse display: The current verse, as well as the previous and next verses, are displayed. A 'next' and 'previous' button allows the user to scroll 
+                                through the verses. A back-arrow brings the user back to the verse selection.
+                            </p>
+                            <!--
+                            <ul>
+                                <p>Verse Selection: Select the desired Bible verse using on-screen dropdowns. In addition, there is an option to select between 7 Bible versions.</p>
+                                <p>Verse display: The current verse, as well as the previous and next verses, are displayed. A 'next' and 'previous' button allows the user to </p>
+                                <p>scroll through the verses. A back-arrow brings the user back to the verse selection.</p>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            -->
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
+                                <li>Code:
+                                    <strong><a href="https://github.com/Jonbat/Bible-App-Mobile">Github</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Yourname</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                    <strong>Jan 2020</strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -459,8 +529,8 @@
         </div>
     </div>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Parallax -->
+    <script src="vendor\parallax.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
