@@ -3,12 +3,6 @@
   width: 100%;
   background: transparent;
 }
-.skills {
-  font-size: 26px;
-  font-weight: 500;
-  margin: 5px;
-  text-align: left;
-}
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -27,13 +21,17 @@ p.green {
   color: #0F52BA;
   font-weight: 500;
 }
-li {
+ul.skills {
+  font-size: 26px;
+  font-weight: 700;
+  list-style-type: none;
+}
+ul {
   font-size: 24px;
 }
 a,
 a:hover,
 a:focus,
-a:active,
 a.active {
   color: #0F52BA;
   outline: none;
@@ -108,6 +106,16 @@ header .intro-text .title {
   font-size: 1.25em;
   font-weight: 300;
 }
+a.credential {
+  color:#0F52BA;;
+  font-size: 24px;
+  font-weight: 700;
+}
+a.resume {
+  color: rgb(255, 255, 255);
+  font-size: 1.25em;
+  font-weight: 500;
+}
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
@@ -118,6 +126,12 @@ header .intro-text .title {
   }
   header .intro-text .title {
     font-size: 1.75em;
+  }
+  a.resume {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 1000;
+    text-decoration: underline;
   }
 }
 .navbar-custom {
@@ -206,7 +220,7 @@ section h2 {
   margin: 0;
   font-size: 3em;
 }
-section.success {
+section.blueSection {
   background: #0F52BA;
   color: white;
 }
@@ -390,45 +404,45 @@ fieldset[disabled] .btn-primary.active {
   color: #2C3E50;
   background-color: white;
 }
-.btn-success {
+.btn-blueSection {
   color: white;
   background-color: #0F52BA;
   border-color: #0F52BA;
   font-weight: 700;
 }
-.btn-success:hover,
-.btn-success:focus,
-.btn-success:active,
-.btn-success.active,
-.open .dropdown-toggle.btn-success {
+.btn-blueSection:hover,
+.btn-blueSection:focus,
+.btn-blueSection:active,
+.btn-blueSection.active,
+.open .dropdown-toggle.btn-blueSection {
   color: white;
   background-color: #128f76;
   border-color: #11866f;
 }
-.btn-success:active,
-.btn-success.active,
-.open .dropdown-toggle.btn-success {
+.btn-blueSection:active,
+.btn-blueSection.active,
+.open .dropdown-toggle.btn-blueSection {
   background-image: none;
 }
-.btn-success.disabled,
-.btn-success[disabled],
-fieldset[disabled] .btn-success,
-.btn-success.disabled:hover,
-.btn-success[disabled]:hover,
-fieldset[disabled] .btn-success:hover,
-.btn-success.disabled:focus,
-.btn-success[disabled]:focus,
-fieldset[disabled] .btn-success:focus,
-.btn-success.disabled:active,
-.btn-success[disabled]:active,
-fieldset[disabled] .btn-success:active,
-.btn-success.disabled.active,
-.btn-success[disabled].active,
-fieldset[disabled] .btn-success.active {
+.btn-blueSection.disabled,
+.btn-blueSection[disabled],
+fieldset[disabled] .btn-blueSection,
+.btn-blueSection.disabled:hover,
+.btn-blueSection[disabled]:hover,
+fieldset[disabled] .btn-blueSection:hover,
+.btn-blueSection.disabled:focus,
+.btn-blueSection[disabled]:focus,
+fieldset[disabled] .btn-blueSection:focus,
+.btn-blueSection.disabled:active,
+.btn-blueSection[disabled]:active,
+fieldset[disabled] .btn-blueSection:active,
+.btn-blueSection.disabled.active,
+.btn-blueSection[disabled].active,
+fieldset[disabled] .btn-blueSection.active {
   background-color: #0F52BA;
   border-color: #0F52BA;
 }
-.btn-success .badge {
+.btn-blueSection .badge {
   color: #0F52BA;
   background-color: white;
 }
