@@ -123,14 +123,14 @@ a.resume {
     padding-bottom: 100px;
   }
   header .intro-text .name {
-    font-size: 4.75em;
+    font-size: 3em;
   }
   header .intro-text .title {
     font-size: 1.75em;
   }
   a.resume {
     color: rgb(255, 255, 255);
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 1000;
     text-decoration: underline;
   }
@@ -154,7 +154,9 @@ a.resume {
 .navbar-custom .navbar-brand.active {
   color: white;
 }
+/* Projects Experiences... */
 .navbar-custom .navbar-nav {
+  font-size: 1.4em;
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
@@ -197,8 +199,9 @@ a.resume {
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
   }
+  /* top name link */
   .navbar-custom .navbar-brand {
-    font-size: 2em;
+    font-size: 1.5em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -207,7 +210,7 @@ a.resume {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 }
 section {
