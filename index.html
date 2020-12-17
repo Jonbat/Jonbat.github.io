@@ -1,552 +1,158 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
 
-<head>
+<html>
+	<head>
+		<title>Jonathan Batchelder</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="landing is-preload">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
 
-    <title>Jonathan Batchelder</title>
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Jonathan Batchelder</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>Jonathan Batchelder</h2>
+							<p>Software and Embedded Systems Engineer</p>
+						</div>
+						<a href="#one" class="more scrolly">Projects</a>
+					</section>
 
-    <!-- Theme CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
+				<!-- About -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>About Me</h2>
+								<p>I am a final-year master's/bachelor's student at Southern Adventist University 
+									that is fascinated of the intersection between software and hardware.
+								</p>
+								<!-- Add Picture -->
+								<!-- <div class="row gtr-uniform">
+									<div class="col-3 col-6-xsmall">
+										<span class="image fit"><img src="img/suitWide.jpg" alt="" /></span>
+									</div>
+									<div class="col-8 col-6-xsmall">
+										<p>I am a final-year master's/bachelor's student at Southern Adventist University 
+											that is fascinated of the intersection between software and hardware.
+										</p>
+									</div>
+								</div> -->
+							</header>
+							<ul class="icons major">
+								<li><span class="icon solid fa-code major style3"><span class="label">Dolor</span></span></li>
+								<li><span class="icon soild fa-heart major style1"><span class="label">Lorem</span></span></li>
+								<li><span class="icon solid fa-microchip major style2"><span class="label">Ipsum</span></span></li>	
+							</ul>
+						</div>
+					</section>
+					
+				<!-- Projects -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="img/muscleDisplay.jpg" alt="" /></div><div class="content">
+								<h2>Muscle Sensor LED Display</h2>
+								<p>This embedded systems project detects muscle contractions and displays it on a 32x32 LED screen. The harder you 
+									contract your muscle, the larger the wave. Any large enough muscle is compatible, such as the biceps, forearms, 
+									or even forehead muscles!
+								</p>
+								<a href="" class="button fit">Learn More</a>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="img\yeetPostThumb.jpg" alt="" /></div><div class="content">
+								<h2>YeetPost Mobile</h2>
+								<p>YeetPost is an iOS and Android location-based messaging application. Unlike most messaging applications, YeetPost 
+									contains a cyberbullying detection that removes offensive yeets and replies using machine learning (TensorFlow). 
+									Built with Flutter.
+								</p>
+								<a href="" class="button fit">Learn More</a>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="img\imageDisplay.jpg" alt="" /></div><div class="content">
+								<h2>Real-Time LED Image Displayer</h2>
+								<p>This embedded systems project allows a user to take images from a phone and display it in real-time on a 32x32 
+									LED display! An IR remote can be configured to scroll through 10 different display files. Also, an ambient light 
+									sensor can be used to control the display using surrounding light. Built with the Raspberry Pi.
+								</p>
+								<a href="" class="button fit">Learn More</a>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="img\bibleAppThumb.png" alt="" /></div><div class="content">
+								<h2>Flutter Bible App</h2>
+								<p>An iOS and Android Bible application! This app contains two views:
+									<li>Verse Selection: Select the desired Bible verse using on-screen dropdowns. In addition, there is an option to select between 7 Bible versions.</li>
+									<li>Verse display: The current verse, as well as the previous and next verses, are displayed. A 'next' and 'previous' button allows the user 
+									to scroll through the verses. A back-arrow brings the user back to the verse selection.</li>
+								</p>
+								<a href="" class="button fit">Learn More</a>
+							</div>
+						</section>
+					</section>
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Contact Me</h2>
+								<p>Email: jonbat@live.com</p>
+							</header>
+							
+							<!-- <ul class="actions stacked">
+								<li><a href="#" class="button fit primary">Activate</a></li>
+								<li><a href="#" class="button fit">Learn More</a></li>
+							</ul> -->
+						</div>
+					</section>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/jonathanbatchelder/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/Jonbat" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.youtube.com/channel/UCN32CcfbPbzFyzcWChxMCpw" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+							<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Jonathan Batchelder</li>
+							<!-- <li>Email: jonbat@live.com</a></li> -->
+						</ul>
+					</footer>
 
-</head>
+			</div>
 
-<body id="page-top" class="index">
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Jonathan Batchelder</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    
-                    <li class="page-scroll">
-                        <a href="#portfolio">Projects</a>
-                    
-                    <li class="page-scroll">
-                        <a href="#experience">Experience</a>
-                    
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-text">
-                        <!-- repetitive name -->
-                        <!-- <span class="name">Jonathan Batchelder</span> 
-                        <br/>
-                        -->
-                        <a href="resumeJonathanBatchelder.pdf" class="resume">Resume - link</a>
-                        <br/><br/>
-                        <!-- <hr class="star-light"> -->
-                        <span class="title"> Computer Science Student 
-                            <br/> Software Engineer and Embedded Systems Enthusiast <br/> 
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section class="small" id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#muscleDisplay" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/muscleDisplay.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#yeetPost" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/yeetPostThumb.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="row"></div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#imageDisplay" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/imageDisplay.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#bibleApp" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/bibleAppThumb.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="small" id="education" >
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Education</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <h3>Southern Adventist University</h3>
-                    <p> Master's / Bachelor's dual degree student in computer science</p>
-                    <p>Collegedale, Tennessee</p>
-                    <p class="accent">Aug 2017 - May 2021</p>
-                </div>
-            </div>
-        </div>
-        <br>
-    </section>
-
-    <div class="row">
-        <div class="hidden-xs">  
-            <div class="parallax" data-parallax="scroll" 
-                data-image-src="img/southernCampus.jpg"
-                >
-            </div>
-        </div>
-        <div class="hidden-sm hidden-md hidden-lg">  
-            <div class="parallax" data-parallax="scroll" 
-                data-image-src="img/southernCampusMobile.jpg"
-                >
-            </div>
-        </div>
-    </div>
-
-    <section class="small" id="experience">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Experience</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <br>
-                    <img class="img-responsive img-centered" src="img/circLogo.png" alt="">
-                    <br>
-                </div>
-                <div class="col-sm-9">
-                    <h3>Software Developer</h3>
-                    <h4>Center for Innovation and Research in Computing - Southern Adventist University</h4>
-                    <p class="accent">Jan 2018 - Present</p>
-                    <p>Collegedale, Tennessee</p>
-                    <ul >
-                        <li>Created registration system for <a class="credential" href="https://www.ShareHim.org">ShareHim.org</a> using Laravel's PHP MVC framework 
-                        <li>Managed server-side registration data using MySQL Database
-                        <li>Designed registration page using Google’s Materialize front-end framework
-                    </ul>
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-sm-3">
-                    <br>
-                    <img class="img-responsive img-centered" src="img/southernLogo.png" alt="">
-                    <br>
-                </div>
-                <div class="col-sm-9">
-                    <h3>Computer Science Student Mentor</h3>
-                    <h4>Southern Adventist University</h4>
-                    <p class="accent">Aug 2018 - Present</p>
-                    <p>Collegedale, Tennessee</p>
-                    <ul >
-                        <li>Provided academic support for 30+ computing major freshman through tutoring, degree scheduling, time management, etc.
-                        <li>Taught as a teaching assistant for the Southern‘s computer science freshman orientation class
-                        <li>Facilitated social connections among my mentees by throwing ice-breakers and get-togethers
-                    </ul>
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-sm-3">
-                    <br>
-                    <img class="img-responsive img-centered" src="img/appesteem.jpg" alt="">
-                    <br>
-                </div>
-                <div class="col-sm-9">
-                    <h3>Software Engineer Intern</h3>
-                    <h4>AppEsteem Corporation</h4>
-                    <p class="accent">Jun 2019 - Aug 2019</p>
-                    <p>Bellevue, Washington</p>
-                    <ul>
-                        <li>Developed web interface for <a class="credential" href="https://www.appesteem.com">AppEsteem.com</a> with react.js and semantic UI front-end framework
-                        <li>Implemented secure subscription-based payment system through Chargebee
-                        <li>Managed and integrated user account data with Firebase
-                    </ul>
-                </div>
-            </div>
-            <br>
-    </section>
-
-    <section id="skills" >
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Skills</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 col-sm-offset-2">
-                    <ul class="skills">
-                        <li>Agile Development
-                        <li>C++ / C
-                        <li>Flutter
-                        <li>NoSQL (Firebase)
-                        <li>MySQL
-                        <li>Git
-                        <li>PHP
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-sm-offset-2">
-                    <ul class="skills">
-                        <li>Bootstrap
-                        <li>HTML/CSS/JS
-                        <li>Node.js
-                        <li>Laravel
-                        <li>Yii 2.0
-                        <li>Python
-                        <li>Java
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="certification">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Certifications</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <br>
-                    <img class="img-responsive img-centered" 
-                        style="max-width:300px;width:100%"
-                        src="img/securityPlus.svg" 
-                        alt="">
-                </div>
-                <div class="col-sm-8 col-sm-offset-1">
-                    <br>
-                    <br>
-                    <h3>CompTIA Security+</h3>
-                    <p class="accent">Issued Jun 2019 - Expires Jun 2022</p>
-                    <a class="credential" href="https://www.youracclaim.com/badges/3d56b59e-0976-457f-a3b4-988fe2762196/linked_in_profile">See credential</a>
-                </div>
-            </div>
-    </section> 
-
-    <section class="blueSection" id="about">
-        <br>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <br>
-                    <img class="img-responsive img-centered" src="img/profilePic.jpg" alt="">
-                <br>
-            </div>
-            <div class="col-sm-9">
-                <br>
-                <p> &emsp; Hello! My name is Jonathan Batchelder and I am a 4th-year MS / BS computer science student at Southern 
-                    Adventist University. Recently, I have been having fun creating mobile apps with Flutter!</p>
-            </div>
-        </div>
-        <br>
-        <br>
-    </section> 
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <!-- -->
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>Florida</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.linkedin.com/in/jonathanbatchelder/" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            
-                            <li>
-                                <a href="https://www.youtube.com/channel/UCN32CcfbPbzFyzcWChxMCpw" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
-                            
-                            <li>
-                                <a href="https://github.com/Jonbat" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            
-                            <li>
-                                <a href="https://steamcommunity.com/id/jonbat/" class="btn-social btn-outline"><i class="fa fa-fw fa-steam"></i></a>
-                            
-                            <li>
-                                <a href="https://www.instagram.com/j_batch2017/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
-                            
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Contact me</h3>
-                        <p>Email: jonbat@live.com</p>
-                        <p>Phone: 240-329-1778</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Jonathan Batchelder 2020
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="yeetPost" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>YeetPost</h2>
-                            <hr class="star-primary">
-                            <img src="img/yeetPostThumb.jpg" class="img-responsive img-centered" alt="">
-                            <p>
-                                YeetPost is an iOS and Android messaging application, developed with Flutter. Users create 
-                                location-based posts, called yeets, with the option to be anonymous. Unlike most social media and 
-                                messaging applications, Yeetpost will contain a cyberbullying detection algorithm that will remove 
-                                offensive yeets and replies using machine learning (TensorFlow).
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Code:
-                                    <strong><a href="https://github.com/Jonbat/YeetPost-Mobile">Github</a>
-                                    </strong>
-                                
-                                <li>Date:
-                                    <strong>Jan 2020 - Present</strong>
-                                
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="imageDisplay" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Real-time LED Image Display</h2>
-                            <hr class="star-primary">
-                            <img src="img/imageDisplay.jpg" class="img-responsive img-centered" alt="">
-                            <p>This embedded systems project allows a user to take images from a phone and display it in 
-                                real-time on a 32x32 LED display! An IR remote can be configured to scroll through 10 different 
-                                display files. Also, an ambient light sensor can be used to control the display using surrounding 
-                                light. Built with the Raspberry Pi.
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Code:
-                                    <strong><a href="https://github.com/Jonbat/Real-time-Image-LED-Display">Github</a></strong>
-                                <li>Info:
-                                    <strong><a href="https://youtu.be/txqw9IOIMH0">Instructional Video</a>/strong>
-                                <li>Date:
-                                    <strong>Nov 2019</strong>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="muscleDisplay" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Muscle Sensor LED Display</h2>
-                            <hr class="star-primary">
-                            <img src="img/muscleDisplay.jpg" class="img-responsive img-centered" alt="">
-                            <p>This embedded systems project detects muscle contractions and displays it on a 32x32 LED 
-                                screen. The harder you contract your muscle, the larger the wave. Any large enough muscle 
-                                is compatible, such as the biceps, forearms, or even forehead muscles!
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Code:
-                                    <strong><a href="https://github.com/Jonbat/Muscle-Sensor-LED-Display">Github</a>
-                                    </strong>
-                                
-                                <li>Info:
-                                    <strong><a href="https://youtu.be/R8VW5WCSrXk">Instructional Video</a>
-                                    </strong>
-                                
-                                <li>Date:
-                                    <strong>Nov 2018 - Feb 2019</strong>
-                                
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="bibleApp" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Mobile Bible App</h2>
-                            <hr class="star-primary">
-                            <img src="img/bibleAppThumb.png" class="img-responsive img-centered" alt="">
-                            <p>
-                                An iOS and Android Bible application! This app contains two views:
-                            </p>
-                            <ul>
-                                <li>Verse Selection: Select the desired Bible verse using on-screen dropdowns. In addition, there is an option to select between 7 Bible versions.
-                                <li>Verse display: The current verse, as well as the previous and next verses, are displayed. A 'next' and 'previous' button allows the user to
-                                scroll through the verses. A back-arrow brings the user back to the verse selection.
-                            </ul>
-                            <ul class="list-inline item-details">
-                                <li>Code:
-                                    <strong><a href="https://github.com/Jonbat/Bible-App-Mobile">Github</a>
-                                    </strong>
-                                
-                                <li>Date:
-                                    <strong>Jan 2020</strong>
-                                
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</body>
-    <!-- Parallax -->
-    <script src="vendor\parallax.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
-
+	</body>
 </html>
