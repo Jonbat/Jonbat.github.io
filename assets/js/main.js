@@ -80,4 +80,14 @@
 
 		}
 
+	// Custom embedded YouTube element
+		class YtVideo extends HTMLElement {
+			constructor() {
+				super();
+				this.innerHTML = 
+					`<div class="iframe-container"><iframe src="https://www.youtube.com/embed/${this.getAttribute('id')}" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div>`
+			}
+		}
+		window.customElements.define('yt-video', YtVideo);
+
 })(jQuery);
