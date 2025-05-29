@@ -37,7 +37,7 @@
 										<span class="profile fit"><img src="img/suit.jpg" alt="" /></span>
 									</div>
 									<div class="col-8 col-8-small col-12-xsmall">
-										<p>I am a software engineer currently at Microsoft with 4+ years of frontend and backend experience.
+										<p>I am a software engineer currently at Microsoft with over <span id="workExperience"></span> years of backend and frontend experience.
 											My personal published app, Triage Simulator, has gotten 150+ acquisitions from 25+ countries on the Windows App Store.
 											I graduated with a Master's and Bachelor's in Computer Science at Southern Adventist University in May of 2021.
 										</p>
@@ -133,6 +133,27 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- Auto-increment years of experience every year starting in May 2020 -->
+			<script>
+			    // Set the starting point: May 2020
+			    const startYear = 2020;
+			    const startMonth = 4; // 0-indexed (4 = May)
+			
+			    const now = new Date();
+			    const currentYear = now.getFullYear();
+			    const currentMonth = now.getMonth();
+			
+			    // Calculate how many full years have passed, considering May as the anniversary month
+			    let yearsExperience = currentYear - startYear;
+			
+			    // If we're not yet in May this year, subtract one year
+			    if (currentMonth < startMonth) {
+			      yearsExperience -= 1;
+			    }
+			
+			    // Display the result
+			    document.getElementById('workExperience').textContent = yearsExperience;
+			</script>
 
 	</body>
 </html>
